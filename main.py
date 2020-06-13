@@ -1,8 +1,8 @@
 from Additive import additive
 def main():
     print("Additive");
-    a = input();
-    b = input();
+    a = int(input("First: "));
+    b = int(input("Second: "));
     ans = additive(a,b);
-    print(ans);
+    print("ans: ",ans);
 main();
