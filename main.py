@@ -3,6 +3,6 @@ def main():
     print("Additive");
     a = input();
     b = input();
-    additive(a,b)
-
+    ans = additive(a,b);
+    print(ans);
 main();
