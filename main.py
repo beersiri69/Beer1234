@@ -1,4 +1,4 @@
-from Additive.py
+from Additive.py import additive
 def main():
     print("Additive");
     a = input();
